@@ -1,0 +1,77 @@
+🌸 Iris Flower Classification Web App
+
+This project is a Flask web application that predicts the type of Iris flower (Setosa, Versicolor, Virginica) based on user inputs.
+It uses a trained Machine Learning model (saved with joblib) and also visualizes prediction probabilities with bar and pie charts.
+
+🚀 Features
+
+📝 Simple input form for sepal & petal dimensions
+
+🤖 Predicts Iris flower species using a trained model
+
+📊 Generates Bar Chart & Pie Chart of prediction probabilities
+
+🌐 Built with Flask, scikit-learn, and Matplotlib
+
+🛠️ Tech Stack
+
+Python (Flask, NumPy, Matplotlib, scikit-learn, joblib)
+
+HTML + CSS (Frontend)
+
+Flask Templates (Jinja2)
+
+📂 Project Structure
+├── app.py                 # Main Flask app
+├── model.pkl              # Trained ML model
+├── templates/
+│   ├── index.html         # Input page
+│   ├── result.html        # Prediction result page
+├── static/
+│   ├── prediction_bar.png # Auto-generated bar chart
+│   ├── prediction_pie.png # Auto-generated pie chart
+└── README.md              # Documentation
+
+⚙️ Installation & Setup
+
+Clone the repo:
+
+git clone https://github.com/your-username/iris-flask-app.git
+cd iris-flask-app
+
+
+Install dependencies:
+
+pip install flask joblib scikit-learn matplotlib numpy
+
+
+Run the Flask app:
+
+python app.py
+
+
+Open in browser:
+
+http://127.0.0.1:5000/
+
+📊 Example Output
+
+Prediction result with probability distribution
+
+Auto-generated Bar Chart and Pie Chart for better visualization
+
+✨ Future Improvements
+
+Add more ML models for comparison
+
+Deploy on Heroku/Render for live demo
+
+Improve UI with Bootstrap/Tailwind
+
+🤝 Contributing
+
+Feel free to fork this repo, raise issues, or submit pull requests!
+
+📜 License
+
+This project is open-source under the MIT License.
